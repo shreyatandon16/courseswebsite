@@ -13,8 +13,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/my-app",
-            "index": "src/index.html",
+            "outputPath": "dist/myApp",
+            "index": "dist/my-app/index.html",
             "main": "src/main.ts",
             "polyfills": [
               "zone.js"
