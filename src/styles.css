@@ -1,1 +1,155 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  min-height: 100vh;
+  background: #ffffff;
+}
+.app-header {
+  background-color: #ffffff; 
+  color: #ffffff; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px; 
+}
+
+
+.white-toolbar {
+  background-color: white; 
+  color: rgb(255, 254, 254); 
+}
+
+
+.login-wrapper {
+  height: 100%;
+}
+
+
+.box {
+  position: relative;
+  top: 0;
+  opacity: 1;
+  float: left;
+  padding: 60px 50px 40px 50px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 10px;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  z-index: 5;
+  max-width: 330px;
+}
+
+.box.back {
+  transform: scale(.95);
+  -webkit-transform: scale(.95);
+  -ms-transform: scale(.95);
+  top: -20px;
+  opacity: .8;
+  z-index: -1;
+}
+
+.box:before {
+  content: "";
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  position: absolute;
+  top: -10px;
+  background: rgba(252, 252, 252, 0.6);
+  left: 0;
+  transform: scale(.95);
+  -webkit-transform: scale(.95);
+  -ms-transform: scale(.95);
+  z-index: -1;
+}
+
+.login-wrapper .example-form {
+  min-width: 100%;
+  max-width: 300px;
+  width: 100%;
+}
+
+.login-wrapper .example-full-width,
+.login-wrapper .btn-block {
+  width: 100%;
+}
+
+.login-wrapper mat-card-header {
+  text-align: center;
+  width: 100%;
+  display: block;
+  font-weight: 700;
+}
+
+.login-wrapper mat-card-header mat-card-title {
+  font-size: 30px;
+  margin: 0;
+}
+
+.login-wrapper .mat-card {
+  padding: 40px 70px 50px;
+}
+
+.login-wrapper .mat-stroked-button {
+  border: 1px solid currentColor;
+  line-height: 54px;
+  background: #FFF7FA;
+}
+
+.login-wrapper .mat-form-field-appearance-legacy .mat-form-field-infix {
+  padding: 0.8375em 0;
+}
+
+.app-header {
+  background-color: #fdfdfd; 
+  color: #ffffff; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px; 
+}
+
+.logo {
+  text-decoration: none;
+  color: #ffffff; 
+  font-size: 24px; 
+}
+
+
+.mat-button {
+  color: #eee7e7 !important; 
+  text-transform: uppercase; 
+  font-weight: bold; 
+  font-size: 14px; 
+}
+
+
+.active {
+  background-color:white;
+  border-radius: 4px; 
+}
+
+.nav-tool-items {
+  display: flex;
+  align-items: center;
+}
+.custom-register-button {
+  background-color: #ffffff; 
+  color: #ffffff; 
+  text-transform: uppercase; 
+  font-weight: bold; 
+  margin-left: 16px;
+  font-size: 14px; 
+}
+
+
+.courses-button {
+  scroll-margin-right: auto; 
+  margin-right: 16px; 
+}

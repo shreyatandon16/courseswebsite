@@ -1,0 +1,97 @@
+.e-course-platform {
+  position: relative;
+  letter-spacing: 0.14em;
+  line-height: 100%;
+  text-transform: uppercase;
+  margin-left: 1cm;
+}
+.learning-and {
+  left: 15;
+  margin-left: 1cm;
+}
+.gain-subject-certification-container,
+.learning-and-teaching-container {
+  position: relative;
+  letter-spacing: -0.04em;
+  line-height: 100%;
+  display: inline-block;
+  width: 637.95px;
+}
+.gain-subject-certification-container {
+  font-size: 22.71px;
+  line-height: 140%;
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  background-color: beige;
+  width: 461.91px;
+}
+.e-course-platform-parent,
+.learning-and-teaching-online-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.learning-and-teaching-online-parent {
+  gap: 42.58px;
+  font-size: 73.24px;
+  color: var(--color-black);
+  font-family: var(--font-dela-gothic-one);
+}
+.e-course-platform-parent {
+  gap: 28.38px;
+}
+
+.vector-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 11.35px;
+}
+.hours-of-content {
+  position: relative;
+  letter-spacing: -0.04em;
+  line-height: 140%;
+  font-weight: 600;
+}
+.frame-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.84px;
+}
+.frame-child,
+.k-icon {
+  position: relative;
+  width: 1.42px;
+  height: 56.77px;
+}
+.k-icon {
+  width: 176.89px;
+  height: 38.48px;
+}
+.frame-container,
+.frame-parent {
+  display: flex;
+  justify-content: flex-start;
+  gap: 56.77px;
+}
+.frame-container {
+  flex-direction: row;
+  align-items: center;
+  color:rgb(255, 255, 255);
+}
+.frame-parent {
+  position: absolute;
+  top: 202.56px;
+  left: 248.02px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.image-area img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
