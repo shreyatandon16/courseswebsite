@@ -1,8 +1,8 @@
-body 
+body
 {
-  font-family:sans-serif; 
-  background: -webkit-linear-gradient(to right, #232f3b, #159957);  
-  background: linear-gradient(to right, #155799, #159957); 
+  font-family:sans-serif;
+  background: -webkit-linear-gradient(to right, #232f3b, #159957);
+  background: linear-gradient(to right, #155799, #159957);
   color:whitesmoke;
 }
 
@@ -79,7 +79,7 @@ span.forgotpsd a {
 .forgotpsd a{
     color: rgb(74, 146, 235);
   }
-  
+
 .forgotpsd a:link{
     text-decoration: none;
   }
@@ -88,11 +88,11 @@ span.forgotpsd a {
     color: white;
     text-align: center;
   }
-  
+
   .register a{
     color: rgb(74, 146, 235);
   }
-  
+
   .register a:link{
     text-decoration: none;
   }
@@ -103,7 +103,7 @@ span.forgotpsd a {
       width: 25rem;
     }
   }
-  
+
   @media screen and (max-width: 400px) {
     form{
       width: 20rem;
