@@ -64,8 +64,6 @@ body {
   background: rgba(252, 252, 252, 0.6);
   left: 0;
   transform: scale(.95);
-  -webkit-transform: scale(.95);
-  -ms-transform: scale(.95);
   z-index: -1;
 }
 
@@ -150,6 +148,6 @@ body {
 
 
 .courses-button {
-  scroll-margin-right: auto; 
+  scroll-margin-right: 10px; 
   margin-right: 16px; 
 }

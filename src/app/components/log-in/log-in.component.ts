@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 export class LogInComponent {
   constructor(private router: Router) { }
   redirectToRegister() {
-    this.router.navigate(['register']); 
+    this.router.navigate(['register']);
    }
-  
+
 }
